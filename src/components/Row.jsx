@@ -7,7 +7,15 @@ const Row = ({ title, results, rowID }) => {
   const [movies, setMovies] = useState([]);
 
   useEffect(() => {
-  setMovies(results);
+  const defaultBackdrop = '/xOMo8BRK7PfcJv9JCnx7s5hj0PX.jpg';
+  const withBackdrop = results.map((m) => ({
+    ...m,
+    backdrop_path: m.backdrop_path ?? defaultBackdrop,
+  }));
+
+
+  setMovies(withBackdrop);
+  console.log(movies)
   }, []);
 
 

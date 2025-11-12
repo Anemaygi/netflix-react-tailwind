@@ -1,39 +1,106 @@
 {
-  "page": 1,
-  "results": [
-    {
-      "adult": false,
-      "backdrop_path": "/xOMo8BRK7PfcJv9JCnx7s5hj0PX.jpg",
-      "genre_ids": [28, 12, 878],
-      "id": 634649,
-      "original_language": "en",
-      "original_title": "Spider-Man: No Way Home",
-      "overview": "Peter Parker’s secret identity is revealed to the world...",
-      "popularity": 9600.5,
-      "poster_path": "/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
-      "release_date": "2021-12-15",
-      "title": "Spider-Man: No Way Home",
-      "video": false,
-      "vote_average": 8.3,
-      "vote_count": 18000
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/bQXAqRx2Fgc46uCVWgoPz5L5Dtr.jpg",
-      "genre_ids": [28, 12, 14],
-      "id": 436270,
-      "original_language": "en",
-      "original_title": "Black Adam",
-      "overview": "Nearly 5,000 years after he was bestowed with the powers...",
-      "popularity": 7200.9,
-      "poster_path": "/pFlaoHTZeyNkG83vxsAJiGzfSsa.jpg",
-      "release_date": "2022-10-19",
-      "title": "Black Adam",
-      "video": false,
-      "vote_average": 7.0,
-      "vote_count": 4500
-    }
-  ],
-  "total_pages": 500,
-  "total_results": 10000
+    "user_id": 2,
+    "recommendations": [
+        {
+            "movie_id": "toy+story+1995",
+            "title": "Toy Story",
+            "predicted_rating": 3.85
+        },
+        {
+            "movie_id": "up+2009",
+            "title": "Up",
+            "predicted_rating": 3.75
+        },
+        {
+            "movie_id": "the+terminator+1984",
+            "title": "The Terminator",
+            "predicted_rating": 3.67
+        },
+        {
+            "movie_id": "lady+and+the+tramp+ii+scamps+adventure+2001",
+            "title": "Lady And The Tramp Ii Scamps Adventure",
+            "predicted_rating": 3.64
+        },
+        {
+            "movie_id": "harry+potter+and+the+prisoner+of+azkaban+2004",
+            "title": "Harry Potter And The Prisoner Of Azkaban",
+            "predicted_rating": 3.59
+        },
+        {
+            "movie_id": "the+day+the+earth+stood+still+1951",
+            "title": "The Day The Earth Stood Still",
+            "predicted_rating": 3.56
+        },
+        {
+            "movie_id": "the+tragedy+of+macbeth+1971",
+            "title": "The Tragedy Of Macbeth",
+            "predicted_rating": 3.55
+        },
+        {
+            "movie_id": "interstellar+2014",
+            "title": "Interstellar",
+            "predicted_rating": 3.54
+        },
+        {
+            "movie_id": "wall+street+1987",
+            "title": "Wall Street",
+            "predicted_rating": 3.53
+        },
+        {
+            "movie_id": "wild+2014",
+            "title": "Wild",
+            "predicted_rating": 3.53
+        },
+        {
+            "movie_id": "kamikaze+2014",
+            "title": "Kamikaze",
+            "predicted_rating": 3.53
+        },
+        {
+            "movie_id": "the+overnight+2015",
+            "title": "The Overnight",
+            "predicted_rating": 3.52
+        },
+        {
+            "movie_id": "the+flat+2011",
+            "title": "The Flat",
+            "predicted_rating": 3.51
+        },
+        {
+            "movie_id": "hellboy+ii+the+golden+army+2008",
+            "title": "Hellboy Ii The Golden Army",
+            "predicted_rating": 3.49
+        },
+        {
+            "movie_id": "the+dark+knight+rises+2012",
+            "title": "The Dark Knight Rises",
+            "predicted_rating": 3.45
+        },
+        {
+            "movie_id": "nazty+nuisance+1943",
+            "title": "Nazty Nuisance",
+            "predicted_rating": 3.42
+        },
+        {
+            "movie_id": "dances+with+wolves+1990",
+            "title": "Dances With Wolves",
+            "predicted_rating": 3.34
+        },
+        {
+            "movie_id": "the+fountain+1989",
+            "title": "The Fountain",
+            "predicted_rating": 3.32
+        },
+        {
+            "movie_id": "love+stories+2000",
+            "title": "Love Stories",
+            "predicted_rating": 3.32
+        },
+        {
+            "movie_id": "meeting+evil+2012",
+            "title": "Meeting Evil",
+            "predicted_rating": 3.29
+        }
+    ]
 }
+
