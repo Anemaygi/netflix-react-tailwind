@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { FaHeart, FaRegHeart } from 'react-icons/fa';
-import { UserAuth } from '../context/AuthContext';
+import { FaStar } from "react-icons/fa";import { UserAuth } from '../context/AuthContext';
 import { db } from '../firebase';
 import { arrayUnion, doc, updateDoc } from 'firebase/firestore';
 
@@ -19,7 +18,7 @@ const Movie = ({ item }) => {
         savedShows: arrayUnion({
           id: item.movie_id,
           title: item.title,
-          img: "/xOMo8BRK7PfcJv9JCnx7s5hj0PX.jpg", 
+          img: "/xOMo8BRK7PfcJv9JCnx7s5hj0PX.jpg",
         }),
         // img -> backdrop_path
       });
@@ -38,13 +37,16 @@ const Movie = ({ item }) => {
       <div className='absolute top-0 left-0 w-full h-full hover:bg-black/80 opacity-0 hover:opacity-100 text-white'>
         <p className='white-space-normal text-xs md:text-sm font-bold flex justify-center items-center h-full text-center'>
           {item?.title}
+
+
+
         </p>
         <p onClick={saveShow}>
-          {like ? (
-            <FaHeart className='absolute top-4 left-4 text-gray-300' />
-          ) : (
-            <FaRegHeart className='absolute top-4 left-4 text-gray-300' />
-          )}
+
+          <p className="absolute top-4 left-4 flex items-center gap-1 text-gray-300">
+            <FaStar />
+            <span><b>Predicted:</b> {item?.predicted_rating}</span>
+          </p>
         </p>
       </div>
     </div>
