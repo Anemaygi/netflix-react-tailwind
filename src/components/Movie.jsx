@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaStar } from "react-icons/fa";import { UserAuth } from '../context/AuthContext';
+import { FaStar } from "react-icons/fa"; import { UserAuth } from '../context/AuthContext';
 import { db } from '../firebase';
 import { arrayUnion, doc, updateDoc } from 'firebase/firestore';
 
@@ -41,13 +41,23 @@ const Movie = ({ item }) => {
 
 
         </p>
-        <p onClick={saveShow}>
 
-          <p className="absolute top-4 left-4 flex items-center gap-1 text-gray-300">
-            <FaStar />
-            <span><b>Predicted:</b> {item?.predicted_rating}</span>
-          </p>
+
+        <p className="group absolute top-4 left-4 flex items-center gap-1 text-gray-300">
+          <FaStar />
+          <span>{item?.predicted_rating}</span>
+          <span
+            className="absolute top-6 left-0
+                 bg-black/90 text-white text-[10px]
+                 px-2 py-1 rounded shadow-lg
+                 opacity-0 translate-y-1 scale-95
+                 pointer-events-none
+                 transition-all duration-200 ease-out
+                 group-hover:opacity-100 group-hover:translate-y-0 group-hover:scale-100">
+            Predicted rating
+          </span>
         </p>
+
       </div>
     </div>
   );
