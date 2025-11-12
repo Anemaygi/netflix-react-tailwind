@@ -1,0 +1,25 @@
+{
+  "results": [
+    {
+      "id": 634649,
+      "title": "Spider-Man: No Way Home",
+      "backdrop_path": "/xOMo8BRK7PfcJv9JCnx7s5hj0PX.jpg",
+      "release_date": "2021-12-15",
+      "overview": "Peter Parker’s secret identity is revealed to the entire world. Desperate for help, he turns to Doctor Strange, but the spell goes horribly wrong..."
+    },
+    {
+      "id": 436270,
+      "title": "Black Adam",
+      "backdrop_path": "/bQXAqRx2Fgc46uCVWgoPz5L5Dtr.jpg",
+      "release_date": "2022-10-19",
+      "overview": "Nearly 5,000 years after being bestowed with powers, Black Adam is freed from his earthly tomb, ready to unleash his unique form of justice..."
+    },
+    {
+      "id": 76600,
+      "title": "Avatar: The Way of Water",
+      "backdrop_path": "/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg",
+      "release_date": "2022-12-14",
+      "overview": "Jake Sully lives with his newfound family on Pandora. When a familiar threat returns, Jake must work with Neytiri and the army of the Na’vi race..."
+    }
+  ]
+}
