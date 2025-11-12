@@ -25,31 +25,19 @@ const Navbar = () => {
           NETFLIX
         </h1>
       </Link>
-      {user?.email ? (
-        <div>
-          <Link to='/account'>
-            <button className='text-white pr-4'>Account</button>
-          </Link>
-          <button
-            onClick={handleLogout}
-            className='bg-red-600 px-6 py-2 rounded cursor-pointer text-white'
-          >
-            Logout
-          </button>
-        </div>
-      ) : (
+      
         <div>
           <Link to='/login'>
-            <button className='text-white pr-4'>Sign In</button>
+            <button className='text-white pr-4'>About nextflix</button>
           </Link>
              <button
               onClick={() => setShowLogin(true)}
               className='bg-red-600 px-6 py-2 rounded cursor-pointer text-white'
-            > Sign Up
+            > Recommend movies
             </button>
           
         </div>
-      )}
+
     </div>
      {showLogin && (
         <LoginModal
